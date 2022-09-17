@@ -18,6 +18,9 @@
 
         <item name="txt_txtColor">@color/black_600</item>
 
+        <!--    Button style    -->
+        <item name="android:buttonStyle">@style/btn_fill_style</item>
+
         <item name="btn_fill_bgColor">@color/purple_900</item>
         <item name="btn_fill_txtColor">@color/white</item>
 
@@ -26,5 +29,12 @@
 
         <item name="btn_sub_bgColor">@color/purple_100</item>
         <item name="btn_sub_txtColor">@color/purple_900</item>
+
+
+        <!--    EditText Style    -->
+        <item name="editTextStyle">@style/edt_style</item>
+
+        <item name="edt_txtColor">@color/black</item>
+        <item name="edt_bgColor">@color/materialGray3</item>
     </style>
 </resources>

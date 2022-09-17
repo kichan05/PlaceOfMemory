@@ -2,6 +2,7 @@
 <resources>
     <attr name="txt_txtColor" format="color"/>
 
+    <!--  Button style  -->
     <attr name="btn_fill_bgColor" format="color" />
     <attr name="btn_fill_txtColor" format="color" />
 
@@ -10,4 +11,8 @@
 
     <attr name="btn_secon_bgColor" format="color" />
     <attr name="btn_secon_txtColor" format="color" />
+
+    <!--  EditText style  -->
+    <attr name="edt_txtColor" type="color"/>
+    <attr name="edt_bgColor" type="color"/>
 </resources>
