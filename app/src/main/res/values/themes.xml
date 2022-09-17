@@ -13,8 +13,11 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
 
         <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/font</item>
+
         <item name="txt_txtColor">@color/white</item>
 
+        <!--    Button style    -->
         <item name="btn_fill_bgColor">@color/purple_900</item>
         <item name="btn_fill_txtColor">@color/white</item>
 
@@ -25,9 +28,11 @@
         <item name="btn_sub_txtColor">@color/purple_900</item>
     </style>
 
+    <!--  Button style  -->
     <style name="btn_fill_style" parent="Widget.AppCompat.Button">
         <item name="android:textColor">?attr/btn_fill_txtColor</item>
-        <item name="android:textSize">18sp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textFontWeight">600</item>
         <item name="android:textAllCaps">false</item>
 
         <item name="android:background">@drawable/sh_button_background</item>

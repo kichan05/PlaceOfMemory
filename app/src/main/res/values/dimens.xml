@@ -2,5 +2,5 @@
 <resources>
     <dimen name="app_radius">8dp</dimen>
 
-    <dimen name="btn_padding">16dp</dimen>
+    <dimen name="btn_padding">8dp</dimen>
 </resources>
