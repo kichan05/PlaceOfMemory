@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="txt_txtColor" format="color"/>
+
+    <attr name="btn_fill_bgColor" format="color" />
+    <attr name="btn_fill_txtColor" format="color" />
+
+    <attr name="btn_sub_bgColor" format="color" />
+    <attr name="btn_sub_txtColor" format="color" />
+
+    <attr name="btn_secon_bgColor" format="color" />
+    <attr name="btn_secon_txtColor" format="color" />
+</resources>
