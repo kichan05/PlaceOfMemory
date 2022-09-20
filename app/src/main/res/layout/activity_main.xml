@@ -16,29 +16,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
 
-            android:orientation="vertical"
-
             android:layout_marginHorizontal="20dp"
 
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent">
+            android:orientation="vertical"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
 
                 android:text="텍스트 입니당"
-                android:textSize="20sp"
-                />
+                android:textSize="20sp" />
 
             <Button
                 style="@style/btn_fill_style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:tooltipText="sadads"
+                android:text="Fill Button"
 
-                android:text="Fill Button" />
+                android:tooltipText="sadads" />
 
             <Button
                 style="@style/btn_secon_style"
@@ -60,8 +59,38 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:hint="이름을 입력하세요."
-                />
+                android:hint="이름을 입력하세요." />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:buttonTint="?attr/colorPrimary" />
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:buttonTint="?attr/colorPrimary"
+                    android:checked="true" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:buttonTint="?attr/colorPrimary" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:buttonTint="?attr/colorPrimary"
+                    android:checked="true" />
+            </LinearLayout>
 
         </LinearLayout>
 

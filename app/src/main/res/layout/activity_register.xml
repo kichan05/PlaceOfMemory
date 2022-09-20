@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="vm"
+            type="com.heechan.placeofmemory.ui.register.RegisterViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.register.RegisterActivity">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/line_register_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/app_padding" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/line_register_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/app_padding" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/line_register_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal"
+            app:layout_constraintGuide_end="16dp"
+            />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_register"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            app:title="회원가입"
+
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            />
+
+        <EditText
+            android:id="@+id/edt_register_inputName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:hint="이름을 입력 해주세요"
+            android:inputType="textEmailAddress"
+
+            app:layout_constraintTop_toBottomOf="@+id/tb_register"
+            app:layout_constraintStart_toStartOf="@id/line_register_start"
+            app:layout_constraintEnd_toEndOf="@id/line_register_end"
+            />
+
+        <EditText
+            android:id="@+id/edt_register_inputEmail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:hint="이메일을 입력 해주세요"
+            android:inputType="textEmailAddress"
+
+            android:layout_marginTop="16dp"
+
+            app:layout_constraintTop_toBottomOf="@id/edt_register_inputName"
+            app:layout_constraintStart_toStartOf="@id/line_register_start"
+            app:layout_constraintEnd_toEndOf="@id/line_register_end"
+            />
+
+
+        <EditText
+            android:id="@+id/edt_register_inputPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:hint="비밀번호를 입력 해주세요"
+            android:inputType="textPassword"
+
+            android:layout_marginTop="16dp"
+
+            app:layout_constraintTop_toBottomOf="@id/edt_register_inputEmail"
+            app:layout_constraintStart_toStartOf="@id/line_register_start"
+            app:layout_constraintEnd_toEndOf="@id/line_register_end"
+            />
+
+        <EditText
+            android:id="@+id/edt_register_inputPasswordRe"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:hint="비밀번호를 다시 입력 해주세요"
+            android:inputType="textPassword"
+
+            android:layout_marginTop="16dp"
+
+            app:layout_constraintTop_toBottomOf="@id/edt_register_inputPassword"
+            app:layout_constraintStart_toStartOf="@id/line_register_start"
+            app:layout_constraintEnd_toEndOf="@id/line_register_end"
+            />
+
+
+        <Button
+            android:id="@+id/btn_register_submit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:text="회원가입 하기"
+
+            app:layout_constraintBottom_toTopOf="@id/line_register_bottom"
+            app:layout_constraintStart_toStartOf="@id/line_register_start"
+            app:layout_constraintEnd_toEndOf="@id/line_register_end"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
