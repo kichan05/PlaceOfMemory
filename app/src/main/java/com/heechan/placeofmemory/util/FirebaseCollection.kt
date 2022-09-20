@@ -1,5 +1,5 @@
 package com.heechan.placeofmemory.util
 
-object FireebaseCollection {
+object FirebaseCollection {
     const val auth : String = "auth"
 }

@@ -59,6 +59,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
+                android:layout_marginVertical="12dp"
+
                 android:drawableLeft="@drawable/ic_person"
                 android:hint="이름을 입력하세요." />
 

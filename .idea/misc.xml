@@ -21,8 +21,10 @@
         <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_twinkle.xml" value="0.2565" />
         <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/sh_button_background.xml" value="0.1" />
         <entry key="..\:/Android/Placeofmemory/app/src/main/res/font/font.xml" value="0.25" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/layout/activity_design_system.xml" value="0.25" />
         <entry key="..\:/Android/Placeofmemory/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Android/Placeofmemory/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/layout/activity_splash.xml" value="0.1703125" />
       </map>
     </option>
   </component>

@@ -118,6 +118,8 @@
 
             android:text="회원가입 하기"
 
+            android:onClick="@{()->vm.register()}"
+
             app:layout_constraintBottom_toTopOf="@id/line_register_bottom"
             app:layout_constraintStart_toStartOf="@id/line_register_start"
             app:layout_constraintEnd_toEndOf="@id/line_register_end"
