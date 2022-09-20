@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_add.xml" value="0.2565" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_back.xml" value="0.2565" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_chart.xml" value="0.2565" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_check.xml" value="0.2065" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_close.xml" value="0.2065" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_dark.xml" value="0.2065" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_explore.xml" value="0.2065" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_filter.xml" value="0.2065" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_finger_print.xml" value="0.2065" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_heart.xml" value="0.2065" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_rocket.xml" value="0.2565" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_search.xml" value="0.2565" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_send.xml" value="0.2565" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_star.xml" value="0.2565" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_trash_bin.xml" value="0.2565" />
+        <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/ic_twinkle.xml" value="0.2565" />
         <entry key="..\:/Android/Placeofmemory/app/src/main/res/drawable/sh_button_background.xml" value="0.1" />
         <entry key="..\:/Android/Placeofmemory/app/src/main/res/font/font.xml" value="0.25" />
         <entry key="..\:/Android/Placeofmemory/app/src/main/res/layout/activity_main.xml" value="0.33" />
