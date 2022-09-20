@@ -68,16 +68,7 @@
         <item name="android:background">@drawable/sh_button_background</item>
         <item name="android:backgroundTint">?attr/edt_bgColor</item>
 
-        <item name="android:paddingVertical">16dp</item>
-        <item name="android:paddingHorizontal">12dp</item>
-    </style>
-
-    <style name="edt_icon_style" parent="Widget.AppCompat.EditText">
-        <item name="android:textColor">#000</item>
-        <item name="android:textColorHint">@color/materialGray6</item>
-
-        <item name="android:background">@drawable/sh_button_background</item>
-        <item name="android:backgroundTint">?attr/edt_bgColor</item>
+        <item name="android:drawablePadding">4dp</item>
 
         <item name="android:paddingVertical">16dp</item>
         <item name="android:paddingHorizontal">12dp</item>
