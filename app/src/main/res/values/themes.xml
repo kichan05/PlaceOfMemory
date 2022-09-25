@@ -33,7 +33,7 @@
         <item name="editTextStyle">@style/edt_style</item>
 
         <item name="edt_txtColor">@color/black</item>
-        <item name="edt_bgColor">@color/materialGray3</item>
+        <item name="edt_bgColor">#DFDFDF</item>
     </style>
 
     <!--  Button style  -->
@@ -62,6 +62,7 @@
     </style>
     
     <style name="edt_style" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">18dp</item>
         <item name="android:textColor">#000</item>
         <item name="android:textColorHint">@color/materialGray6</item>
 
@@ -70,7 +71,7 @@
 
         <item name="android:drawablePadding">4dp</item>
 
-        <item name="android:paddingVertical">16dp</item>
+        <item name="android:paddingVertical">12dp</item>
         <item name="android:paddingHorizontal">12dp</item>
     </style>
 </resources>

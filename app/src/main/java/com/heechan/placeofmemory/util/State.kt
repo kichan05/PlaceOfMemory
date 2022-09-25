@@ -1,6 +1,7 @@
 package com.heechan.placeofmemory.util
 
-enum class Result {
+enum class State {
     Success,
+    Loading,
     Fail,
 }
