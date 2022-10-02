@@ -39,53 +39,90 @@
             android:orientation="horizontal"
             app:layout_constraintGuide_end="16dp" />
 
-        <EditText
-            android:id="@+id/edt_login_inputEmail"
+<!--        <EditText-->
+<!--            android:id="@+id/edt_login_inputEmail"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:text="@={vm.email}"-->
+<!--            android:hint="이메일을 입력해주세요."-->
+
+<!--            android:drawableLeft="@drawable/ic_search"-->
+
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:layout_constraintStart_toStartOf="@id/line_login_start"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/line_login_end"-->
+<!--            />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/edt_login_inputPassword"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:text="@={vm.password}"-->
+<!--            android:hint="비밀번호를 입력해주세요"-->
+
+<!--            android:layout_marginTop="16dp"-->
+
+<!--            android:drawableLeft="@drawable/ic_lock"-->
+
+<!--            app:layout_constraintTop_toBottomOf="@+id/edt_login_inputEmail"-->
+<!--            app:layout_constraintStart_toStartOf="@id/line_login_start"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/line_login_end"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btn_login_submit"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:text="로그인"-->
+
+<!--            android:layout_marginTop="16dp"-->
+
+<!--            android:onClick="@{() -> vm.login()}"-->
+
+<!--            app:layout_constraintStart_toStartOf="@id/line_login_start"-->
+<!--            app:layout_constraintEnd_toEndOf="@id/line_login_end"-->
+<!--            app:layout_constraintTop_toBottomOf="@+id/edt_login_inputPassword"-->
+<!--            />-->
+
+
+        <LinearLayout
+            android:id="@+id/btn_login_googleLogin"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
 
-            android:text="@={vm.email}"
-            android:hint="이메일을 입력해주세요."
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="20dp"
 
-            android:drawableLeft="@drawable/ic_search"
+            android:background="@drawable/sh_button_background"
+            android:elevation="2dp"
+
+            android:gravity="center"
 
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@id/line_login_start"
-            app:layout_constraintEnd_toEndOf="@id/line_login_end"
-            />
+            app:layout_constraintEnd_toEndOf="@id/line_login_end">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-        <EditText
-            android:id="@+id/edt_login_inputPassword"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
+                android:src="@drawable/ic_google_logo"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
 
-            android:text="@={vm.password}"
-            android:hint="비밀번호를 입력해주세요"
+                android:text="Google 로그인"
+                android:textColor="@color/black_600"
+                android:textSize="16sp"
+                android:textFontWeight="500"
 
-            android:layout_marginTop="16dp"
-
-            android:drawableLeft="@drawable/ic_lock"
-
-            app:layout_constraintTop_toBottomOf="@+id/edt_login_inputEmail"
-            app:layout_constraintStart_toStartOf="@id/line_login_start"
-            app:layout_constraintEnd_toEndOf="@id/line_login_end"
-            />
-
-        <Button
-            android:id="@+id/btn_login_submit"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-
-            android:text="로그인"
-
-            android:layout_marginTop="16dp"
-
-            android:onClick="@{() -> vm.login()}"
-
-            app:layout_constraintStart_toStartOf="@id/line_login_start"
-            app:layout_constraintEnd_toEndOf="@id/line_login_end"
-            app:layout_constraintTop_toBottomOf="@+id/edt_login_inputPassword"
-            />
+                android:gravity="center"
+                />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

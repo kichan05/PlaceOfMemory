@@ -60,6 +60,10 @@
         
         <item name="android:backgroundTint">?attr/btn_sub_bgColor</item>
     </style>
+
+    <style name="googleLoginBtn_style" parent="Widget.AppCompat.Button">
+        <item name="android:backgroundTint">@color/white</item>
+    </style>
     
     <style name="edt_style" parent="Widget.AppCompat.EditText">
         <item name="android:textSize">18dp</item>
