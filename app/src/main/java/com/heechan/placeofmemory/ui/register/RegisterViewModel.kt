@@ -21,7 +21,6 @@ class RegisterViewModel : ViewModel() {
     val erroeMessage = MutableLiveData<String>()
 
     fun register() {
-        Log.d("registerState", "로그인 시작")
         if(!inputCheck()){
             Log.d("registerState", "입력 값 오류")
             return

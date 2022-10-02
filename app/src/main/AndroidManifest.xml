@@ -15,12 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlaceOfMemory"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBen9rT_K-n1e2uOm2lbQ847s8ArjTIzHs" />
+
         <activity
-            android:name=".ui.SplashActivity"
-            android:exported="true">
-        </activity>
-        <activity
-            android:name=".ui.register.RegisterActivity"
+            android:name=".ui.login.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,6 +29,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.register.RegisterActivity"
+            android:exported="true" />
         <activity
             android:name=".DesignSystemActivity"
             android:exported="true" />
