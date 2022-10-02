@@ -16,16 +16,13 @@ import kotlinx.coroutines.withContext
 class LoginViewModel : ViewModel() {
     private val repository = AuthRepositoryImpl()
 
-    val email = MutableLiveData<String>()
-    val password = MutableLiveData<String>()
-
     val state = MutableLiveData<State>()
     val resultUserData = MutableLiveData<User>()
 
+    /*
+    val email = MutableLiveData<String>()
+    val password = MutableLiveData<String>()
     fun login() {
-        Log.d("loginInput", email.value.toString())
-        Log.d("loginInput", password.value.toString())
-
         if(!isInputCheck()){
             return
         }
@@ -52,7 +49,6 @@ class LoginViewModel : ViewModel() {
             }
         }
     }
-
     private fun isInputCheck() : Boolean {
         if(email.value.isNullOrBlank()){
             return false
@@ -63,4 +59,5 @@ class LoginViewModel : ViewModel() {
 
         return true
     }
+     */
 }
